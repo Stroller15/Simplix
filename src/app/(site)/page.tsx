@@ -29,8 +29,8 @@ const HomePage = () => {
       md:items-center"
       >
         <TitleSection
-          pill="✨ Your Workspace, Perfected"
-          title="All-In-One Collaboration and Productivity Platform"
+          pill="✨ Craft Your Workspace to Perfection"
+          title="Your all-in-one space for working together and boosting productivity"
         />
         <div
           className="bg-white
