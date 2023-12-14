@@ -1,4 +1,3 @@
-import React from 'react'
 import TitleSection from '@/components/landing-page/TitleSection';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
@@ -394,12 +393,6 @@ const HomePage = () => {
           ))}
         </div>
       </section>
-
-
-
-      
-
-      
     </>
   )
 }
