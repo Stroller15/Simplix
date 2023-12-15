@@ -51,7 +51,7 @@ const HomePage = () => {
             bg-background
           "
           >
-            Get Cypress Free
+            Get Simplix Free
           </Button>
         </div>
         <div
