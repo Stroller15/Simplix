@@ -6,6 +6,8 @@ import { ThemeProvider } from "@/lib/providers/next-theme-provider"
 import db from '@/lib/supabase/db'
 import { DM_Sans } from 'next/font/google'
 import { twMerge } from 'tailwind-merge'
+import AppStateProvider from '@/lib/providers/ state-providers';
+
 
 const inter = DM_Sans({ subsets: ['latin'] })
 
@@ -30,7 +32,9 @@ export default function RootLayout({
         enableSystem
         disableTransitionOnChange
       >
-        {children}
+         <AppStateProvider>
+             {children}
+          </AppStateProvider>
       </ThemeProvider>
     </body>
   </html>

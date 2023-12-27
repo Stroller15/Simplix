@@ -8,7 +8,7 @@ import { getUserSubscriptionStatus } from '@/lib/supabase/queries';
   
 
 
-const Dashboard = async() => {
+const DashboardPage = async() => {
 
   const supabase = createServerComponentClient({cookies});
 
@@ -52,4 +52,4 @@ const Dashboard = async() => {
 };
 
 
-export default Dashboard
+export default DashboardPage
