@@ -7,6 +7,7 @@ import db from '@/lib/supabase/db'
 import { DM_Sans } from 'next/font/google'
 import { twMerge } from 'tailwind-merge'
 import AppStateProvider from '@/lib/providers/ state-providers';
+import { SupabaseUserProvider } from '@/lib/providers/supabase-user-provider';
 
 
 const inter = DM_Sans({ subsets: ['latin'] })
@@ -33,7 +34,7 @@ export default function RootLayout({
         disableTransitionOnChange
       >
          <AppStateProvider>
-             {children}
+             <SupabaseUserProvider>{children}</SupabaseUserProvider>
           </AppStateProvider>
       </ThemeProvider>
     </body>

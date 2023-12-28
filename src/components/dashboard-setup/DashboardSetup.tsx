@@ -11,7 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from '../ui/card';
-import EmojiPicker from '../global/EmojiPicker';
+import EmojiPicker from '../global/emoji-picker';
 import { Label } from '../ui/label';
 import { Input } from '../ui/input';
 import { Subscription, workspace } from '@/lib/supabase/supabase.types';
